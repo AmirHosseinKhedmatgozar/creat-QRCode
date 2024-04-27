@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Lalezar&family=Noto+Sans+Arabic:wdth,wght@75.4,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Lalezar&family=Mirza:wght@400;500;600;700&family=Noto+Sans+Arabic:wdth,wght@75.4,100..900&display=swap");
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(90, 53, 125);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mirza", serif;
+}
+.container {
+  background-color: #fff;
+  border-radius: 10%;
+  width: 400px;
+  padding: 30px;
+}
+h1 {
+  font-family: "Lalezar", system-ui;
+}
+input,
+button {
+  width: 100%;
+  margin: 10px 5px 0 5px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  border: 0.5px solid #000;
+  font-size: 18px;
+}
+button {
+  margin-bottom: 30px;
+  background-color: rgb(90, 53, 125);
+  color: #fff;
+}
+
+.img {
+  text-align: center;
+  border: 0.5px solid #000;
+  padding: 15px 0;
+  border-radius: 10px;
+}
